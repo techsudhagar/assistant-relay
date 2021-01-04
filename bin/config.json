@@ -1,0 +1,93 @@
+{
+  "port": 3000,
+  "muteStartup": true,
+  "quietHours": {
+    "enabled": true,
+    "start": "22",
+    "end": "10"
+  },
+  "maxResponses": 5,
+  "conversation": {
+    "audio": {
+      "encodingIn": "LINEAR16",
+      "sampleRateIn": 16000,
+      "encodingOut": "LINEAR16",
+      "sampleRateOut": 24000
+    },
+    "lang": "en-US",
+    "screen": {
+      "isOn": false
+    }
+  },
+  "users": [
+    {
+      "name": "techsudhagar@gmail.com",
+      "secret": {
+        "installed": {
+          "client_id": "270039212161-1t8p24f0r9ts34pa2ipvgu7ofjqf5n09.apps.googleusercontent.com",
+          "project_id": "assistant-relay-voice",
+          "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+          "token_uri": "https://oauth2.googleapis.com/token",
+          "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+          "client_secret": "fAlMlaaeP4YpC5DL9Xr6pvhk",
+          "redirect_uris": [
+            "urn:ietf:wg:oauth:2.0:oob",
+            "http://localhost"
+          ]
+        }
+      },
+      "tokens": {
+        "access_token": "ya29.a0AfH6SMAy84I1S7KeHCyiOMscKzFokgLNJ0yOOmiK5Hn3jcA3FIgaUknQA_TA7zKHXsBrpegXdcLXNHDGgdOyKQvr8r4VAbfWLxm0UdSwXWaciUl9wnNVxQFeX9cji0viNhb8VUsVw_C6pOYzBI_4PIOZaqHdOtyBpJL-r64SB-M",
+        "refresh_token": "1//04AvAxxuwNvQ6CgYIARAAGAQSNwF-L9IrHqNHzyx3zx842OLRX9bPNxr7BIuR6HhzJ19YuksBE3irrHLyBtzHB-mkgMTjj1GZvmk",
+        "scope": "https://www.googleapis.com/auth/assistant-sdk-prototype",
+        "token_type": "Bearer",
+        "expiry_date": 1607727520586
+      }
+    },
+    {
+      "name": "cam_access",
+      "secret": {
+        "installed": {
+          "client_id": "270039212161-1t8p24f0r9ts34pa2ipvgu7ofjqf5n09.apps.googleusercontent.com",
+          "project_id": "assistant-relay-voice",
+          "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+          "token_uri": "https://oauth2.googleapis.com/token",
+          "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+          "client_secret": "fAlMlaaeP4YpC5DL9Xr6pvhk",
+          "redirect_uris": [
+            "urn:ietf:wg:oauth:2.0:oob",
+            "http://localhost"
+          ]
+        }
+      }
+    }
+  ],
+  "responses": [
+    {
+      "command": "show Camera on Hub",
+      "response": "",
+      "timestamp": 1608827998689
+    },
+    {
+      "command": "show Camera on Hub",
+      "response": "",
+      "timestamp": 1608828600504
+    },
+    {
+      "command": "show Camera on Hub",
+      "response": "",
+      "timestamp": 1608829203319
+    },
+    {
+      "command": "show Camera on Hub",
+      "response": "",
+      "timestamp": 1608829805092
+    },
+    {
+      "command": "show Camera on Hub",
+      "response": "",
+      "timestamp": 1608830406513
+    }
+  ],
+  "devices": []
+}

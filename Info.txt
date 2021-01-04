@@ -1,0 +1,11 @@
+http://192.168.86.27:3000/assistant
+
+Body: 
+
+{
+    "command": "Turn On Tube Light",
+    "converse": false,
+    "user": "techsudhagar@gmail.com" 
+}
+
+$ rpm run start
