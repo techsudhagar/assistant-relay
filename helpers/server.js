@@ -136,13 +136,12 @@ exports.isQuietHour = function() {
 
         if(!quietHours.enabled) return res(false);
 
-        
-
+    
        // const start = moment(quietHours.start, "HH");
         //const until = moment(quietHours.end, "HH:mm");
 
         const start = quietHours.start;
-        const until = quietHours.end;
+        const until = quietHours.end - 1;
 
         console.log(`quietHours.start ${start}`);
         console.log(`quietHours.end ${until}`);
